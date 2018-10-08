@@ -1,0 +1,297 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500);
+@import url('https://fonts.googleapis.com/css?family=Zilla+Slab+Highlight');
+
+$gray: gray;
+$lightgray: #D3D3D3;
+$darkgray:	#696969;
+$blue: #49a4d5;
+$softblack: #232b2b;
+$header-color: #eceef1;
+$fontOne: 'Raleway', sans-serif;
+$fontTwo: 'Zilla Slab Highlight', cursive;
+
+
+
+body{
+  
+    background:white;
+}
+
+.navbar {
+    position: relative;
+    background: $header-color !important;
+    
+    .navbar-brand {
+         position: relative;
+        left: 52%;
+        margin-left: -50px !important;  /* 50% of your logo width */
+        color: $blue !important;
+        font-size: 25px;
+        
+    
+        }
+        
+        @media only screen and (max-width: 900px) {
+           .navbar-brand{
+                margin-left: -30px !important;
+            }
+        }
+
+        @media only screen and (max-width: 560px) {
+            .nav-link{
+                 display: none;
+             }
+         }
+  
+ 
+}
+
+.backgroundCol{
+    background: $header-color;
+    height: 600px;
+    width: 100%;
+    z-index: 0;
+    
+    p, h2, button, img, .verticallineOne{
+        position: relative;
+        color: $darkgray;
+        
+    }
+
+        p{
+            top: 90px;
+            font-size: 19px;
+        }
+            h2{
+                top: 86px;
+                font-size: 60px;
+                color: $softblack;
+                font-family: $fontOne;
+                font-weight: 500;
+            }
+
+            @media only screen and (max-width: 991px) {
+                h2 {
+                    font-size: 50px;
+                }
+            }
+
+                button{
+                    top: 93px;
+                    padding: 7px 40px 7px 40px;
+                    background: $blue;
+                    color: #fff;
+                    font-size: 16px;
+                    z-index: 1;
+                    font-family: $fontOne;
+                  
+                }
+                a{
+                    color: #fff;
+                    text-decoration: none;
+                }
+                button:hover{
+                    background:$lightgray;
+                }
+                    .podCase{
+                        top:147px;
+                   }
+
+               
+                         
+}
+.midSec{
+    margin-top: 210px;
+    margin-bottom: 90px;
+ 
+   
+    .desc{
+        z-index: 1;
+        text-align: center;
+        font-weight: 500;
+        padding-bottom: 30px;
+        font-size: 20px;
+        font-family: $fontOne;
+    }
+
+        .banner{
+            height: 250px;
+            width: 100%;
+            background: $blue;
+            margin-bottom: 50px;
+           
+        }
+        
+            h1{
+                padding-top: 75px;
+                font-size: 40px;
+                color: #fff;
+                font-family: $fontOne;
+            }
+
+                h3{
+                    color:$header-color !important;
+                font-family: $fontOne;
+
+                }
+
+                    #descBattery{
+                        padding-bottom: 68px;
+                    }
+}
+
+.parallaxtext{
+    margin-top: 80px;
+    color: $blue;
+    font-size: 60px;
+    padding: 0;
+    font-family: $fontOne;
+
+}
+
+.space{
+    margin:90px 0 110px 0;
+}
+.spaceOne{
+    margin: 150px 0 150px 0;
+}
+
+.boxtxt{
+    font-family: $fontOne;
+    
+    margin-top: 10px;
+    border-radius: 10px;
+
+    height: 400px;
+
+    h2, p{
+        color: #ca9e9f;
+    }
+}
+
+.boxtxt2{
+    font-family: $fontOne;
+    
+    margin-top: 10px;
+    border-radius: 10px;
+   
+    height: 400px;
+
+    h2,p{
+        color: $gray;
+    }
+}
+
+.boxtxt3{
+    font-family: $fontOne;
+
+    margin-top: 10px;
+    border-radius: 10px;
+   
+    height: 400px;
+    
+    
+    h2, p{
+        color: $softblack;
+    }
+}
+
+.midSec{
+    margin-top: 210px;
+    margin-bottom: 90px;
+ 
+   
+    .desc{
+        z-index: 1;
+        text-align: center;
+        font-weight: 500;
+        padding-bottom: 30px;
+        font-size: 20px;
+    }
+
+        .banner{
+            height: 250px;
+            width: 100%;
+            background: $blue;
+            margin-bottom: 50px;
+           
+        }
+        
+            h1{
+                padding-top: 75px;
+                font-size: 40px;
+                color: #fff;
+            }
+
+                h3{
+                    color: $darkgray;
+                }
+
+                    #descBattery{
+                        padding-bottom: 68px;
+                    }
+}
+
+
+        .bannerThree{
+            height: 250px;
+            width: 100%;
+            margin-top: 70px;
+            margin-bottom: 10px;
+
+                h1{
+                    padding-top: 90px;
+                    color: $darkgray;
+                    font-size: 40px;
+                    font-family: $fontOne;
+
+                }
+           
+        }
+
+ .varietyCol{
+     padding-left: 100px;
+     padding-right: 100px;
+ }
+.card-title{
+    color: #fff !important;
+    font-size: 35px !important;
+    font-family: $fontTwo;
+   
+}
+
+ .ovl{
+     opacity: 0;
+ }
+
+ .ovl:hover{
+     opacity: 1;
+     filter: drop-shadow(0 0 9px #000);
+
+ }
+
+.droptxt{
+    font-size: 30px;
+    font-family: $fontOne;
+}
+
+.formSubmitBtn{
+    color: white !important;
+    background: $blue !important;
+}
+
+.footerbanner{
+    margin-top: 100px;
+    width: 100%;
+    height: 100px;
+    background: $header-color;
+
+        .signature{
+            position: relative;
+            bottom: 0;
+            text-align: center;
+            padding-top: 70px;
+            font-size: 17px;
+            font-family: $fontOne;
+        }
+}

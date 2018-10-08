@@ -1,0 +1,191 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500);
+@import url("https://fonts.googleapis.com/css?family=Zilla+Slab+Highlight");
+body {
+  background: white; }
+
+.navbar {
+  position: relative;
+  background: #eceef1 !important; }
+  .navbar .navbar-brand {
+    position: relative;
+    left: 52%;
+    margin-left: -50px !important;
+    /* 50% of your logo width */
+    color: #49a4d5 !important;
+    font-size: 25px; }
+  @media only screen and (max-width: 900px) {
+    .navbar .navbar-brand {
+      margin-left: -30px !important; } }
+  @media only screen and (max-width: 560px) {
+    .navbar .nav-link {
+      display: none; } }
+
+.backgroundCol {
+  background: #eceef1;
+  height: 600px;
+  width: 100%;
+  z-index: 0; }
+  .backgroundCol p, .backgroundCol h2, .backgroundCol button, .backgroundCol img, .backgroundCol .verticallineOne {
+    position: relative;
+    color: #696969; }
+  .backgroundCol p {
+    top: 90px;
+    font-size: 19px; }
+  .backgroundCol h2 {
+    top: 86px;
+    font-size: 60px;
+    color: #232b2b;
+    font-family: "Raleway", sans-serif;
+    font-weight: 500; }
+  @media only screen and (max-width: 991px) {
+    .backgroundCol h2 {
+      font-size: 50px; } }
+  .backgroundCol button {
+    top: 93px;
+    padding: 7px 40px 7px 40px;
+    background: #49a4d5;
+    color: #fff;
+    font-size: 16px;
+    z-index: 1;
+    font-family: "Raleway", sans-serif; }
+  .backgroundCol a {
+    color: #fff;
+    text-decoration: none; }
+  .backgroundCol button:hover {
+    background: #D3D3D3; }
+  .backgroundCol .podCase {
+    top: 147px; }
+
+.midSec {
+  margin-top: 210px;
+  margin-bottom: 90px; }
+  .midSec .desc {
+    z-index: 1;
+    text-align: center;
+    font-weight: 500;
+    padding-bottom: 30px;
+    font-size: 20px;
+    font-family: "Raleway", sans-serif; }
+  .midSec .banner {
+    height: 250px;
+    width: 100%;
+    background: #49a4d5;
+    margin-bottom: 50px; }
+  .midSec h1 {
+    padding-top: 75px;
+    font-size: 40px;
+    color: #fff;
+    font-family: "Raleway", sans-serif; }
+  .midSec h3 {
+    color: #eceef1 !important;
+    font-family: "Raleway", sans-serif; }
+  .midSec #descBattery {
+    padding-bottom: 68px; }
+
+.parallaxtext {
+  margin-top: 80px;
+  color: #49a4d5;
+  font-size: 60px;
+  padding: 0;
+  font-family: "Raleway", sans-serif; }
+
+.space {
+  margin: 90px 0 110px 0; }
+
+.spaceOne {
+  margin: 150px 0 150px 0; }
+
+.boxtxt {
+  font-family: "Raleway", sans-serif;
+  margin-top: 10px;
+  border-radius: 10px;
+  height: 400px; }
+  .boxtxt h2, .boxtxt p {
+    color: #ca9e9f; }
+
+.boxtxt2 {
+  font-family: "Raleway", sans-serif;
+  margin-top: 10px;
+  border-radius: 10px;
+  height: 400px; }
+  .boxtxt2 h2, .boxtxt2 p {
+    color: gray; }
+
+.boxtxt3 {
+  font-family: "Raleway", sans-serif;
+  margin-top: 10px;
+  border-radius: 10px;
+  height: 400px; }
+  .boxtxt3 h2, .boxtxt3 p {
+    color: #232b2b; }
+
+.midSec {
+  margin-top: 210px;
+  margin-bottom: 90px; }
+  .midSec .desc {
+    z-index: 1;
+    text-align: center;
+    font-weight: 500;
+    padding-bottom: 30px;
+    font-size: 20px; }
+  .midSec .banner {
+    height: 250px;
+    width: 100%;
+    background: #49a4d5;
+    margin-bottom: 50px; }
+  .midSec h1 {
+    padding-top: 75px;
+    font-size: 40px;
+    color: #fff; }
+  .midSec h3 {
+    color: #696969; }
+  .midSec #descBattery {
+    padding-bottom: 68px; }
+
+.bannerThree {
+  height: 250px;
+  width: 100%;
+  margin-top: 70px;
+  margin-bottom: 10px; }
+  .bannerThree h1 {
+    padding-top: 90px;
+    color: #696969;
+    font-size: 40px;
+    font-family: "Raleway", sans-serif; }
+
+.varietyCol {
+  padding-left: 100px;
+  padding-right: 100px; }
+
+.card-title {
+  color: #fff !important;
+  font-size: 35px !important;
+  font-family: "Zilla Slab Highlight", cursive; }
+
+.ovl {
+  opacity: 0; }
+
+.ovl:hover {
+  opacity: 1;
+  filter: drop-shadow(0 0 9px #000); }
+
+.droptxt {
+  font-size: 30px;
+  font-family: "Raleway", sans-serif; }
+
+.formSubmitBtn {
+  color: white !important;
+  background: #49a4d5 !important; }
+
+.footerbanner {
+  margin-top: 100px;
+  width: 100%;
+  height: 100px;
+  background: #eceef1; }
+  .footerbanner .signature {
+    position: relative;
+    bottom: 0;
+    text-align: center;
+    padding-top: 70px;
+    font-size: 17px;
+    font-family: "Raleway", sans-serif; }
